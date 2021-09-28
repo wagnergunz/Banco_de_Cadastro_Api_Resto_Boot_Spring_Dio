@@ -1,10 +1,10 @@
-package com.bancodecadastro.criar.bancodecadastro;
+package com.bancodecadastro.personapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BancoDeCadastroApplicationTests {
+class PersonapiApplicationTests {
 
 	@Test
 	void contextLoads() {

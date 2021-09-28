@@ -1,13 +1,13 @@
-package com.bancodecadastro.criar.bancodecadastro;
+package com.bancodecadastro.personapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BancoDeCadastroApplication {
+public class PersonapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BancoDeCadastroApplication.class, args);
+		SpringApplication.run(PersonapiApplication.class, args);
 	}
 
 }

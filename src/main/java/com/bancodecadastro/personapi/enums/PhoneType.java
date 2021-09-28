@@ -1,4 +1,4 @@
-package com.bancodecadastro.criar.bancodecadastro.enums;
+package com.bancodecadastro.personapi.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

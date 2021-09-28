@@ -1,10 +1,10 @@
-package com.bancodecadastro.criar.bancodecadastro.dto.request;
+package com.bancodecadastro.personapi.dto.request;
 
-import com.bancodecadastro.criar.bancodecadastro.enums.PhoneType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import com.bancodecadastro.personapi.enums.PhoneType;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -25,6 +25,4 @@ public class PhoneDTO {
     @NotEmpty
     @Size(min = 13, max = 14)
     private String number;
-
-
 }

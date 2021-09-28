@@ -1,4 +1,4 @@
-package com.bancodecadastro.criar.bancodecadastro.dto.response;
+package com.bancodecadastro.personapi.dto.response;
 
 import lombok.Builder;
 import lombok.Data;
@@ -8,5 +8,4 @@ import lombok.Data;
 public class MessageResponseDTO {
 
     private String message;
-
 }

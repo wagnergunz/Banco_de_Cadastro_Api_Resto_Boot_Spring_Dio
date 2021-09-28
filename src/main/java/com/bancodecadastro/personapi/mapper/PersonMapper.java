@@ -1,7 +1,7 @@
-package com.bancodecadastro.criar.bancodecadastro.mapper;
+package com.bancodecadastro.personapi.mapper;
 
-import com.bancodecadastro.criar.bancodecadastro.dto.request.PersonDTO;
-import com.bancodecadastro.criar.bancodecadastro.entity.Person;
+import com.bancodecadastro.personapi.dto.request.PersonDTO;
+import com.bancodecadastro.personapi.entity.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
@@ -16,4 +16,3 @@ public interface PersonMapper {
 
     PersonDTO toDTO(Person person);
 }
-

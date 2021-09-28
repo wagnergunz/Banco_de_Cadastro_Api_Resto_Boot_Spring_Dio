@@ -1,4 +1,4 @@
-package com.bancodecadastro.criar.bancodecadastro.dto.request;
+package com.bancodecadastro.personapi.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,7 +21,7 @@ public class PersonDTO {
 
     @NotEmpty
     @Size(min = 2, max = 100)
-    private String firstname;
+    private String firstName;
 
     @NotEmpty
     @Size(min = 2, max = 100)
@@ -33,11 +33,7 @@ public class PersonDTO {
 
     private String birthDate;
 
-    private String address;
-
     @Valid
     @NotEmpty
     private List<PhoneDTO> phones;
-
-
 }
